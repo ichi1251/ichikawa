@@ -26,9 +26,10 @@ playwright install chromium
 
 1. [Google Cloud Console](https://console.cloud.google.com/) でプロジェクトを作成
 2. **Google Sheets API** と **Google Drive API** を有効化
-3. **サービスアカウント**を作成し、JSONキーをダウンロード
-4. ダウンロードしたJSONを `credentials.json` としてこのディレクトリに配置
-5. 記録先のGoogleスプレッドシートをサービスアカウントのメールアドレスに **編集者** として共有
+3. 「APIとサービス」→「認証情報」→「認証情報を作成」→ **OAuthクライアントID** を選択
+4. アプリの種類: **デスクトップアプリ** を選択して作成
+5. ダウンロードしたJSONを `credentials.json` としてこのディレクトリに配置
+6. 初回実行時にブラウザが開くので、Googleアカウントで認証してください（以降は `token.pickle` に保存され自動化されます）
 
 ### 3. 環境設定
 

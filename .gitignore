@@ -13,6 +13,7 @@ env/
 # Secrets / credentials
 credentials.json
 token.json
+token.pickle
 cookies.json
 *.pem
 
